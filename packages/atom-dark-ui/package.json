@@ -4,7 +4,7 @@
   "version": "0.53.3",
   "description": "A dark UI theme for Atom",
   "license": "MIT",
-  "repository": "https://github.com/atom/atom",
+  "repository": "https://github.com/duckida/atom-revived",
   "engines": {
     "atom": ">0.40.0"
   }

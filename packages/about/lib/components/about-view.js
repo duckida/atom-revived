@@ -200,7 +200,7 @@ module.exports = class AboutView extends EtchComponent {
         { className: 'about-credits group-item' },
         $.span({ className: 'inline' }, 'And the awesome '),
         $.a(
-          { href: 'https://github.com/atom/atom/contributors' },
+          { href: 'https://github.com/duckida/atom-revived/contributors' },
           'Atom Community'
         )
       )

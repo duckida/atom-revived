@@ -12,7 +12,7 @@ if (true) {
   foo();
 }
 
-// https://github.com/atom/atom/issues/6691
+// https://github.com/duckida/atom-revived/issues/6691
 if (true)
 {
   foo();

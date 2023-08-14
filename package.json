@@ -6,10 +6,10 @@
   "main": "./src/main-process/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/atom.git"
+    "url": "https://github.com/duckida/atom-revived.git"
   },
   "bugs": {
-    "url": "https://github.com/atom/atom/issues"
+    "url": "https://github.com/duckida/atom-revived/issues"
   },
   "license": "MIT",
   "electronVersion": "11.5.0",

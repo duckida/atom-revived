@@ -110,7 +110,7 @@ module.exports.generateForNightly = async function(
 
   const latestCommit = latestCommitResult.stdout.toString().trim();
   const output = [
-    `### This nightly release is based on https://github.com/atom/atom/commit/${latestCommit} :atom: :night_with_stars:`
+    `### This nightly release is based on https://github.com/duckida/atom-revived/commit/${latestCommit} :atom: :night_with_stars:`
   ];
 
   try {
@@ -139,7 +139,7 @@ module.exports.generateForNightly = async function(
           output.push('No changes have been included in this release');
         } else {
           output.push(
-            `Click [here](https://github.com/atom/atom/compare/${previousCommit}...${latestCommit}) to see the changes included with this release!`
+            `Click [here](https://github.com/duckida/atom-revived/compare/${previousCommit}...${latestCommit}) to see the changes included with this release!`
           );
         }
       }
