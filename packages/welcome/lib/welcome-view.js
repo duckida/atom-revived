@@ -109,7 +109,7 @@ export default class WelcomeView {
               <li>
                 The Atom forum at{' '}
                 <a
-                  href="https://github.com/atom/atom/discussions"
+                  href="https://github.com/duckida/atom-revived/discussions"
                   dataset={{ event: 'discussions' }}
                 >
                   Github Discussions

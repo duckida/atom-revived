@@ -4,42 +4,42 @@ This folder contains core packages that are bundled with Atom releases.  Not all
 see the table below for the location of every core Atom package.
 
 > **NOTE:** There is an ongoing effort to migrate more Atom packages from their individual repositories to this folder.
-See [RFC 003](https://github.com/atom/atom/blob/master/docs/rfcs/003-consolidate-core-packages.md) for more details.
+See [RFC 003](https://github.com/duckida/atom-revived/blob/master/docs/rfcs/003-consolidate-core-packages.md) for more details.
 
 | Package | Where to find it | Migration issue |
 |---------|------------------|-----------------|
-| **about** | [`./about`](./about) | [#17832](https://github.com/atom/atom/issues/17832) |
-| **atom-dark-syntax** | [`./atom-dark-syntax`](./atom-dark-syntax) | [#17849](https://github.com/atom/atom/issues/17849) |
-| **atom-dark-ui** | [`./atom-dark-ui`](./atom-dark-ui) | [#17850](https://github.com/atom/atom/issues/17850) |
-| **atom-light-syntax** | [`./atom-light-syntax`](./atom-light-syntax) | [#17851](https://github.com/atom/atom/issues/17851) |
-| **atom-light-ui** | [`./atom-light-ui`](./atom-light-ui) | [#17852](https://github.com/atom/atom/issues/17852) |
+| **about** | [`./about`](./about) | [#17832](https://github.com/duckida/atom-revived/issues/17832) |
+| **atom-dark-syntax** | [`./atom-dark-syntax`](./atom-dark-syntax) | [#17849](https://github.com/duckida/atom-revived/issues/17849) |
+| **atom-dark-ui** | [`./atom-dark-ui`](./atom-dark-ui) | [#17850](https://github.com/duckida/atom-revived/issues/17850) |
+| **atom-light-syntax** | [`./atom-light-syntax`](./atom-light-syntax) | [#17851](https://github.com/duckida/atom-revived/issues/17851) |
+| **atom-light-ui** | [`./atom-light-ui`](./atom-light-ui) | [#17852](https://github.com/duckida/atom-revived/issues/17852) |
 | **autocomplete-atom-api** | [`atom/autocomplete-atom-api`][autocomplete-atom-api] |  |
 | **autocomplete-css** | [`atom/autocomplete-css`][autocomplete-css] |  |
 | **autocomplete-html** | [`atom/autocomplete-html`][autocomplete-html] |  |
 | **autocomplete-plus** | [`atom/autocomplete-plus`][autocomplete-plus] |  |
 | **autocomplete-snippets** | [`atom/autocomplete-snippets`][autocomplete-snippets] |  |
-| **autoflow** | [`./autoflow`](./autoflow) | [#17833](https://github.com/atom/atom/issues/17833) |
-| **autosave** | [`atom/autosave`][autosave] | [#17834](https://github.com/atom/atom/issues/17834) |
-| **background-tips** | [`atom/background-tips`][background-tips] | [#17835](https://github.com/atom/atom/issues/17835) |
-| **base16-tomorrow-dark-theme** | [`./base16-tomorrow-dark-theme`](./base16-tomorrow-dark-theme) | [#17836](https://github.com/atom/atom/issues/17836) |
-| **base16-tomorrow-light-theme** | [`./base16-tomorrow-light-theme`](./base16-tomorrow-light-theme) | [#17837](https://github.com/atom/atom/issues/17837) |
-| **bookmarks** | [`atom/bookmarks`][bookmarks] | [#18273](https://github.com/atom/atom/issues/18273) |
+| **autoflow** | [`./autoflow`](./autoflow) | [#17833](https://github.com/duckida/atom-revived/issues/17833) |
+| **autosave** | [`atom/autosave`][autosave] | [#17834](https://github.com/duckida/atom-revived/issues/17834) |
+| **background-tips** | [`atom/background-tips`][background-tips] | [#17835](https://github.com/duckida/atom-revived/issues/17835) |
+| **base16-tomorrow-dark-theme** | [`./base16-tomorrow-dark-theme`](./base16-tomorrow-dark-theme) | [#17836](https://github.com/duckida/atom-revived/issues/17836) |
+| **base16-tomorrow-light-theme** | [`./base16-tomorrow-light-theme`](./base16-tomorrow-light-theme) | [#17837](https://github.com/duckida/atom-revived/issues/17837) |
+| **bookmarks** | [`atom/bookmarks`][bookmarks] | [#18273](https://github.com/duckida/atom-revived/issues/18273) |
 | **bracket-matcher** | [`atom/bracket-matcher`][bracket-matcher] |  |
 | **command-palette** | [`atom/command-palette`][command-palette] |  |
-| **dalek** | [`./dalek`](./dalek) | [#17838](https://github.com/atom/atom/issues/17838) |
-| **deprecation-cop** | [`./deprecation-cop`](./deprecation-cop) | [#17839](https://github.com/atom/atom/issues/17839) |
-| **dev-live-reload** | [`./dev-live-reload`](dev-live-reload) | [#17840](https://github.com/atom/atom/issues/17840) |
-| **encoding-selector** | [`atom/encoding-selector`][encoding-selector] | [#17841](https://github.com/atom/atom/issues/17841) |
-| **exception-reporting** | [`./exception-reporting`](./exception-reporting) | [#17842](https://github.com/atom/atom/issues/17842) |
+| **dalek** | [`./dalek`](./dalek) | [#17838](https://github.com/duckida/atom-revived/issues/17838) |
+| **deprecation-cop** | [`./deprecation-cop`](./deprecation-cop) | [#17839](https://github.com/duckida/atom-revived/issues/17839) |
+| **dev-live-reload** | [`./dev-live-reload`](dev-live-reload) | [#17840](https://github.com/duckida/atom-revived/issues/17840) |
+| **encoding-selector** | [`atom/encoding-selector`][encoding-selector] | [#17841](https://github.com/duckida/atom-revived/issues/17841) |
+| **exception-reporting** | [`./exception-reporting`](./exception-reporting) | [#17842](https://github.com/duckida/atom-revived/issues/17842) |
 | **find-and-replace** | [`atom/find-and-replace`][find-and-replace] |  |
 | **fuzzy-finder** | [`atom/fuzzy-finder`][fuzzy-finder] |  |
 | **github** | [`atom/github`][github] |  |
-| **git-diff** | [`./git-diff`](./git-diff) | [#17843](https://github.com/atom/atom/issues/17843) |
-| **go-to-line** | [`./go-to-line`](./go-to-line) | [#17844](https://github.com/atom/atom/issues/17844) |
-| **grammar-selector** | [`./grammar-selector`](./grammar-selector) | [#17845](https://github.com/atom/atom/issues/17845) |
-| **image-view** | [`atom/image-view`][image-view] | [#18274](https://github.com/atom/atom/issues/18274) |
-| **incompatible-packages** | [`./incompatible-packages`](./incompatible-packages) | [#17846](https://github.com/atom/atom/issues/17846) |
-| **keybinding-resolver** | [`atom/keybinding-resolver`][keybinding-resolver] | [#18275](https://github.com/atom/atom/issues/18275) |
+| **git-diff** | [`./git-diff`](./git-diff) | [#17843](https://github.com/duckida/atom-revived/issues/17843) |
+| **go-to-line** | [`./go-to-line`](./go-to-line) | [#17844](https://github.com/duckida/atom-revived/issues/17844) |
+| **grammar-selector** | [`./grammar-selector`](./grammar-selector) | [#17845](https://github.com/duckida/atom-revived/issues/17845) |
+| **image-view** | [`atom/image-view`][image-view] | [#18274](https://github.com/duckida/atom-revived/issues/18274) |
+| **incompatible-packages** | [`./incompatible-packages`](./incompatible-packages) | [#17846](https://github.com/duckida/atom-revived/issues/17846) |
+| **keybinding-resolver** | [`atom/keybinding-resolver`][keybinding-resolver] | [#18275](https://github.com/duckida/atom-revived/issues/18275) |
 | **language-c** | [`atom/language-c`][language-c] |  |
 | **language-clojure** | [`atom/language-clojure`][language-clojure] |  |
 | **language-coffee-script** | [`atom/language-coffee-script`][language-coffee-script] |  |
@@ -74,32 +74,32 @@ See [RFC 003](https://github.com/atom/atom/blob/master/docs/rfcs/003-consolidate
 | **language-typescript** | [`atom/language-typescript`][language-typescript] |  |
 | **language-xml** | [`atom/language-xml`][language-xml] |  |
 | **language-yaml** | [`atom/language-yaml`][language-yaml] |  |
-| **line-ending-selector** | [`./packages/line-ending-selector`](./line-ending-selector) | [#17847](https://github.com/atom/atom/issues/17847) |
-| **link** | [`./link`](./link) | [#17848](https://github.com/atom/atom/issues/17848) |
+| **line-ending-selector** | [`./packages/line-ending-selector`](./line-ending-selector) | [#17847](https://github.com/duckida/atom-revived/issues/17847) |
+| **link** | [`./link`](./link) | [#17848](https://github.com/duckida/atom-revived/issues/17848) |
 | **markdown-preview** | [`atom/markdown-preview`][markdown-preview] |  |
-| **metrics** | [`atom/metrics`][metrics] | [#18276](https://github.com/atom/atom/issues/18276) |
-| **notifications** | [`atom/notifications`][notifications] | [#18277](https://github.com/atom/atom/issues/18277) |
-| **one-dark-syntax** | [`./one-dark-syntax`](./one-dark-syntax) | [#17853](https://github.com/atom/atom/issues/17853) |
-| **one-dark-ui** | [`./one-dark-ui`](./one-dark-ui) | [#17854](https://github.com/atom/atom/issues/17854) |
-| **one-light-syntax** | [`./one-light-syntax`](./one-light-syntax) | [#17855](https://github.com/atom/atom/issues/17855) |
-| **one-light-ui** | [`./one-light-ui`](./one-light-ui) | [#17856](https://github.com/atom/atom/issues/17856) |
-| **open-on-github** | [`atom/open-on-github`][open-on-github] | [#18278](https://github.com/atom/atom/issues/18278) |
-| **package-generator** | [`atom/package-generator`][package-generator] | [#18279](https://github.com/atom/atom/issues/18279) |
+| **metrics** | [`atom/metrics`][metrics] | [#18276](https://github.com/duckida/atom-revived/issues/18276) |
+| **notifications** | [`atom/notifications`][notifications] | [#18277](https://github.com/duckida/atom-revived/issues/18277) |
+| **one-dark-syntax** | [`./one-dark-syntax`](./one-dark-syntax) | [#17853](https://github.com/duckida/atom-revived/issues/17853) |
+| **one-dark-ui** | [`./one-dark-ui`](./one-dark-ui) | [#17854](https://github.com/duckida/atom-revived/issues/17854) |
+| **one-light-syntax** | [`./one-light-syntax`](./one-light-syntax) | [#17855](https://github.com/duckida/atom-revived/issues/17855) |
+| **one-light-ui** | [`./one-light-ui`](./one-light-ui) | [#17856](https://github.com/duckida/atom-revived/issues/17856) |
+| **open-on-github** | [`atom/open-on-github`][open-on-github] | [#18278](https://github.com/duckida/atom-revived/issues/18278) |
+| **package-generator** | [`atom/package-generator`][package-generator] | [#18279](https://github.com/duckida/atom-revived/issues/18279) |
 | **settings-view** | [`atom/settings-view`][settings-view] |  |
 | **snippets** | [`atom/snippets`][snippets] |  |
-| **solarized-dark-syntax** | [`./solarized-dark-syntax`](./solarized-dark-syntax) | [#18280](https://github.com/atom/atom/issues/18280) |
-| **solarized-light-syntax** | [`./solarized-light-syntax`](./solarized-light-syntax) | [#18281](https://github.com/atom/atom/issues/18281) |
+| **solarized-dark-syntax** | [`./solarized-dark-syntax`](./solarized-dark-syntax) | [#18280](https://github.com/duckida/atom-revived/issues/18280) |
+| **solarized-light-syntax** | [`./solarized-light-syntax`](./solarized-light-syntax) | [#18281](https://github.com/duckida/atom-revived/issues/18281) |
 | **spell-check** | [`atom/spell-check`][spell-check] |  |
-| **status-bar** | [`atom/status-bar`][status-bar] | [#18282](https://github.com/atom/atom/issues/18282) |
-| **styleguide** | [`atom/styleguide`][styleguide] | [#18283](https://github.com/atom/atom/issues/18283) |
+| **status-bar** | [`atom/status-bar`][status-bar] | [#18282](https://github.com/duckida/atom-revived/issues/18282) |
+| **styleguide** | [`atom/styleguide`][styleguide] | [#18283](https://github.com/duckida/atom-revived/issues/18283) |
 | **symbols-view** | [`atom/symbols-view`][symbols-view] |  |
 | **tabs** | [`atom/tabs`][tabs] |  |
-| **timecop** | [`atom/timecop`][timecop] | [#18272](https://github.com/atom/atom/issues/18272) |
+| **timecop** | [`atom/timecop`][timecop] | [#18272](https://github.com/duckida/atom-revived/issues/18272) |
 | **tree-view** | [`atom/tree-view`][tree-view] |  |
-| **update-package-dependencies** | [`./update-package-dependencies`](./update-package-dependencies) | [#18284](https://github.com/atom/atom/issues/18284) |
-| **welcome** | [`./welcome`](./welcome) | [#18285](https://github.com/atom/atom/issues/18285) |
+| **update-package-dependencies** | [`./update-package-dependencies`](./update-package-dependencies) | [#18284](https://github.com/duckida/atom-revived/issues/18284) |
+| **welcome** | [`./welcome`](./welcome) | [#18285](https://github.com/duckida/atom-revived/issues/18285) |
 | **whitespace** | [`atom/whitespace`][whitespace] |  |
-| **wrap-guide** | [`atom/wrap-guide`][wrap-guide] | [#18286](https://github.com/atom/atom/issues/18286) |
+| **wrap-guide** | [`atom/wrap-guide`][wrap-guide] | [#18286](https://github.com/duckida/atom-revived/issues/18286) |
 
 [archive-view]: https://github.com/atom/archive-view
 [autocomplete-atom-api]: https://github.com/atom/autocomplete-atom-api

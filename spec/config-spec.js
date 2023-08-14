@@ -566,7 +566,7 @@ describe('Config', () => {
       });
 
       it('does not call ::save or add a scoped property when no value has been set', () => {
-        // see https://github.com/atom/atom/issues/4175
+        // see https://github.com/duckida/atom-revived/issues/4175
         atom.config.setDefaults('foo', { bar: { baz: 10 } });
         atom.config.unset('foo.bar.baz', { scopeSelector: '.source.coffee' });
         expect(

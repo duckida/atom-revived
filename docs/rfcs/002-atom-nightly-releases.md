@@ -2,7 +2,7 @@
 
 ## Status
 
-Implemented in PR [#17538](https://github.com/atom/atom/pull/17538)
+Implemented in PR [#17538](https://github.com/duckida/atom-revived/pull/17538)
 
 ## Summary
 

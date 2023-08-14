@@ -1796,7 +1796,7 @@ module.exports = class TextEditorComponent {
     // click as a way of closing a tab, we only want the mousedown event, not
     // the paste event. And since we don't use the `paste` event for any
     // behavior in Atom, we can no-op the event to eliminate this issue.
-    // See https://github.com/atom/atom/pull/15183#issue-248432413.
+    // See https://github.com/duckida/atom-revived/pull/15183#issue-248432413.
     if (this.getPlatform() === 'linux') event.preventDefault();
   }
 
@@ -1815,7 +1815,7 @@ module.exports = class TextEditorComponent {
       // editors. This means typing space will actually change the contents
       // of the hidden input, which will cause the browser to autoscroll the
       // scroll container to reveal the input if it is off screen (See
-      // https://github.com/atom/atom/issues/16046). To correct for this
+      // https://github.com/duckida/atom-revived/issues/16046). To correct for this
       // situation, we automatically reset the scroll position to 0,0 after
       // typing a space. None of this can really be tested.
       if (event.data === ' ') {

@@ -21,7 +21,7 @@ Let's cover each of the bullet points mentioned above:
 Imagine that a new contributor wants to add a small new feature to the `tree-view` package.  The first place they are likely to look is the `atom/atom` repository.  Scanning through the folders will lead to a dead end as nothing that looks like `tree-view` code can be found.  They might take one of the following steps next:
 
 - By reading README.md, maybe they will decide to click the link to the Atom Flight Manual and _maybe_ find the [Contributing to Official Atom Packages](https://flight-manual.atom.io/hacking-atom/sections/contributing-to-official-atom-packages/) page there
-- They could read the CONTRIBUTING.md file which [has a section](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#atom-and-packages) that explains where to find the repos for core packages and how to contribute, but we don't really have a clear pointer to that in our README.md
+- They could read the CONTRIBUTING.md file which [has a section](https://github.com/duckida/atom-revived/blob/master/CONTRIBUTING.md#atom-and-packages) that explains where to find the repos for core packages and how to contribute, but we don't really have a clear pointer to that in our README.md
 - If they don't happen to find that page, they might use Google to search for "atom tree view" and find the atom/tree-view repo and _maybe_ read the CONTRIBUTING.md file which sends them to Atom's overall contribution documentation
 - They might go to the Atom Forum or Slack community to ask how to contribute to a particular part of Atom and *hopefully* get a helpful response that points them in the right direction
 
@@ -253,10 +253,10 @@ One alternative approach would be to break this core Atom functionality out of p
 
 [about]: https://github.com/atom/about
 [archive-view]: https://github.com/atom/archive-view
-[atom-dark-syntax]: https://github.com/atom/atom-dark-syntax
-[atom-dark-ui]: https://github.com/atom/atom-dark-ui
-[atom-light-syntax]: https://github.com/atom/atom-light-syntax
-[atom-light-ui]: https://github.com/atom/atom-light-ui
+[atom-dark-syntax]: https://github.com/duckida/atom-revived-dark-syntax
+[atom-dark-ui]: https://github.com/duckida/atom-revived-dark-ui
+[atom-light-syntax]: https://github.com/duckida/atom-revived-light-syntax
+[atom-light-ui]: https://github.com/duckida/atom-revived-light-ui
 [autocomplete-atom-api]: https://github.com/atom/autocomplete-atom-api
 [autocomplete-css]: https://github.com/atom/autocomplete-css
 [autocomplete-html]: https://github.com/atom/autocomplete-html

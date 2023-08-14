@@ -52,7 +52,7 @@ module.exports = class AtomWindow extends EventEmitter {
         backgroundThrottling: !this.isSpec,
         // Disable the `auxclick` feature so that `click` events are triggered in
         // response to a middle-click.
-        // (Ref: https://github.com/atom/atom/pull/12696#issuecomment-290496960)
+        // (Ref: https://github.com/duckida/atom-revived/pull/12696#issuecomment-290496960)
         disableBlinkFeatures: 'Auxclick',
         nodeIntegration: true,
         webviewTag: true,
@@ -66,7 +66,7 @@ module.exports = class AtomWindow extends EventEmitter {
     };
 
     // Don't set icon on Windows so the exe's ico will be used as window and
-    // taskbar's icon. See https://github.com/atom/atom/issues/4811 for more.
+    // taskbar's icon. See https://github.com/duckida/atom-revived/issues/4811 for more.
     if (process.platform === 'linux')
       options.icon = nativeImage.createFromPath(ICON_PATH);
     if (this.shouldAddCustomTitleBar()) options.titleBarStyle = 'hidden';
@@ -250,7 +250,7 @@ module.exports = class AtomWindow extends EventEmitter {
         buttons: ['Close Window', 'Reload', 'Keep It Open'],
         cancelId: 2, // Canceling should be the least destructive action
         message: 'The editor has crashed',
-        detail: 'Please report this issue to https://github.com/atom/atom'
+        detail: 'Please report this issue to https://github.com/duckida/atom-revived'
       });
 
       switch (result.response) {

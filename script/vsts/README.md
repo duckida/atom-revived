@@ -22,7 +22,7 @@ documentation.
 
 In this phase, we run [`script/vsts/generate-version.js`](generate-version.js) to
 determine the version of the next Atom Nightly release. This script consults the
-GitHub v3 API to get the list of releases on the [`atom/atom-nightly-releases`](https://github.com/atom/atom-nightly-releases)
+GitHub v3 API to get the list of releases on the [`atom/atom-nightly-releases`](https://github.com/duckida/atom-revived-nightly-releases)
 repo. We look for the most recent, non-draft release and then parse its version
 number (e.g. `1.30.0-nightly4`) to extract the base version and the monotonically-increasing
 nightly release number.

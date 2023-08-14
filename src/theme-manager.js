@@ -244,7 +244,7 @@ you have permissions to \`${userStylesheetPath}\`.
 
 On linux there are currently problems with watch sizes. See
 [this document][watches] for more info.
-[watches]:https://github.com/atom/atom/blob/master/docs/build-instructions/linux.md#typeerror-unable-to-watch-path\
+[watches]:https://github.com/duckida/atom-revived/blob/master/docs/build-instructions/linux.md#typeerror-unable-to-watch-path\
 `;
       this.notificationManager.addError(message, { dismissable: true });
     }

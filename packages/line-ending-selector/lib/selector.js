@@ -12,7 +12,7 @@ export class Selector {
 
   // Make a selector object (should be called once)
   constructor(selectorItems) {
-    // Defining a SelectListView with methods - https://github.com/atom/atom-select-list
+    // Defining a SelectListView with methods - https://github.com/duckida/atom-revived-select-list
     this.lineEndingListView = new SelectListView({
       // an array containing the objects you want to show in the select list
       items: selectorItems,

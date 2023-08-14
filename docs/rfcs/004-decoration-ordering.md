@@ -30,7 +30,7 @@ This adds another situational parameter to `TextEditor::decorationMarker()`, whi
 
 ## Rationale and alternatives
 
-Originally I wanted to address the package coordination problem with a similar approach to [the way context menu items are ordered](https://github.com/atom/atom/pull/16661), by allowing individual decorations to specify constraints: "before this block," "after this block," "next to this block" and so forth. I ultimately chose to write up the simpler proposal because:
+Originally I wanted to address the package coordination problem with a similar approach to [the way context menu items are ordered](https://github.com/duckida/atom-revived/pull/16661), by allowing individual decorations to specify constraints: "before this block," "after this block," "next to this block" and so forth. I ultimately chose to write up the simpler proposal because:
 
 * Block decoration collisions among packages seem much less likely than context menu collisions.
 * Constraint satisfaction problems are complex. There would be a relatively high chance of introducing bugs and performance regressions.

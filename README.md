@@ -10,7 +10,7 @@ Atom is a hackable text editor for the 21st century, built on [Electron](https:/
 
 ![Atom Screenshot](https://user-images.githubusercontent.com/378023/49132478-f4b77680-f31f-11e8-9e10-e8454d8d9b7e.png)
 
-Visit [atom.io](https://atom.io) to learn more or visit the [Atom forum](https://github.com/atom/atom/discussions).
+Visit [atom.io](https://atom.io) to learn more or visit the [Atom forum](https://github.com/duckida/atom-revived/discussions).
 
 Follow [@AtomEditor](https://twitter.com/atomeditor) on Twitter for important
 announcements.
@@ -26,6 +26,6 @@ The [API reference](https://atom.io/docs/api) for developing packages is also do
 
 ## License
 
-[MIT](https://github.com/atom/atom/blob/master/LICENSE.md)
+[MIT](https://github.com/duckida/atom-revived/blob/master/LICENSE.md)
 
 When using the Atom or other GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).
